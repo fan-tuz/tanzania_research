@@ -1,0 +1,138 @@
+reference_row_index,alias_original,_alias_norm,_district_norm,_region_norm,dataset_source,evidence_status,expanded_row_id
+0,Soitsambu,soitsambu,ngorongoro,arusha,reference_places,reference_and_tier2,REF_001
+0,Loliondo,loliondo,ngorongoro,arusha,reference_places,reference_and_tier2,REF_001
+0,Soit Sambu,soit sambu,ngorongoro,arusha,reference_places,reference_and_tier2,REF_001
+1,Ololosokwan,ololosokwan,ngorongoro,arusha,reference_places,reference_and_tier2,REF_002
+1,Oloolosokwan,oloolosokwan,ngorongoro,arusha,reference_places,reference_and_tier2,REF_002
+2,Soitsambu,soitsambu,ngorongoro,arusha,reference_places,reference_and_tier2,REF_003
+2,Soit-Sambu,soit sambu,ngorongoro,arusha,reference_places,reference_and_tier2,REF_003
+3,Arash,arash,ngorongoro,arusha,reference_places,reference_and_tier2,REF_004
+4,Oloipiri,oloipiri,ngorongoro,arusha,reference_places,reference_and_tier2,REF_005
+4,Oloirpiri,oloirpiri,ngorongoro,arusha,reference_places,reference_and_tier2,REF_005
+4,Oloipir,oloipir,ngorongoro,arusha,reference_places,reference_and_tier2,REF_005
+5,Sale,sale,ngorongoro,arusha,reference_places,reference_only,REF_006
+6,Malambo,malambo,ngorongoro,arusha,reference_places,reference_only,REF_007
+7,Pinyinyi,pinyinyi,ngorongoro,arusha,reference_places,reference_only,REF_008
+8,Digodigo,digodigo,ngorongoro,arusha,reference_places,reference_only,REF_009
+9,Nainokanoka,nainokanoka,ngorongoro,arusha,reference_places,reference_and_tier2,REF_010
+10,Enduleni,enduleni,ngorongoro,arusha,reference_places,reference_and_tier2,REF_011
+10,Endulen,endulen,ngorongoro,arusha,reference_places,reference_and_tier2,REF_011
+11,Enduleni,enduleni,ngorongoro,arusha,reference_places,reference_and_tier2,REF_012
+11,Endulen,endulen,ngorongoro,arusha,reference_places,reference_and_tier2,REF_012
+12,Engaresero,engaresero,ngorongoro,arusha,reference_places,reference_and_tier2,REF_013
+12,Engare Sero,engare sero,ngorongoro,arusha,reference_places,reference_and_tier2,REF_013
+12,Engarasero,engarasero,ngorongoro,arusha,reference_places,reference_and_tier2,REF_013
+12,Ngare Sero,ngare sero,ngorongoro,arusha,reference_places,reference_and_tier2,REF_013
+13,Engaresero,engaresero,ngorongoro,arusha,reference_places,reference_and_tier2,REF_014
+13,Ngaresero,ngaresero,ngorongoro,arusha,reference_places,reference_and_tier2,REF_014
+13,Engarasero,engarasero,ngorongoro,arusha,reference_places,reference_and_tier2,REF_014
+13,Ngare Sero,ngare sero,ngorongoro,arusha,reference_places,reference_and_tier2,REF_014
+14,Misigiyo,misigiyo,ngorongoro,arusha,reference_places,reference_and_tier2,REF_015
+14,Misigyo,misigyo,ngorongoro,arusha,reference_places,reference_and_tier2,REF_015
+15,Misigiyo,misigiyo,ngorongoro,arusha,reference_places,reference_and_tier2,REF_016
+15,Irmisigiyo,irmisigiyo,ngorongoro,arusha,reference_places,reference_and_tier2,REF_016
+15,Misigyo,misigyo,ngorongoro,arusha,reference_places,reference_and_tier2,REF_016
+16,Enguserosambu,enguserosambu,ngorongoro,arusha,reference_places,reference_only,REF_017
+17,Oldonyosambu,oldonyosambu,ngorongoro,arusha,reference_places,reference_only,REF_018
+17,Oldonyo-Sambu,oldonyo sambu,ngorongoro,arusha,reference_places,reference_only,REF_018
+18,Olbalbal,olbalbal,ngorongoro,arusha,reference_places,reference_only,REF_019
+19,Orgosorok,orgosorok,ngorongoro,arusha,reference_places,reference_only,REF_020
+20,Terrat,terrat,simanjiro,manyara,reference_places,reference_and_tier2,REF_021
+21,Emboreet,emboreet,simanjiro,manyara,reference_places,reference_only,REF_022
+22,Naberera,naberera,simanjiro,manyara,reference_places,reference_and_tier2,REF_023
+23,Loiborsiret,loiborsiret,simanjiro,manyara,reference_places,reference_and_tier2,REF_024
+23,Loibosiret,loibosiret,simanjiro,manyara,reference_places,reference_and_tier2,REF_024
+23,Loibor-Siret,loibor siret,simanjiro,manyara,reference_places,reference_and_tier2,REF_024
+24,Loiborsoit,loiborsoit,simanjiro,manyara,reference_places,reference_and_tier2,REF_025
+24,Loibosoit,loibosoit,simanjiro,manyara,reference_places,reference_and_tier2,REF_025
+24,Loibsoit A,loibsoit a,simanjiro,manyara,reference_places,reference_and_tier2,REF_025
+24,Loiborsoit A,loiborsoit a,simanjiro,manyara,reference_places,reference_and_tier2,REF_025
+25,Orkesumet,orkesumet,simanjiro,manyara,reference_places,reference_only,REF_026
+25,Orkesmet,orkesmet,simanjiro,manyara,reference_places,reference_only,REF_026
+26,Orkesumet,orkesumet,simanjiro,manyara,reference_places,reference_only,REF_027
+27,Kitwai,kitwai,simanjiro,manyara,reference_places,reference_only,REF_028
+28,Komolo,komolo,simanjiro,manyara,reference_places,reference_only,REF_029
+29,Naisinyai,naisinyai,simanjiro,manyara,reference_places,reference_only,REF_030
+30,Longido,longido,longido,arusha,reference_places,reference_only,REF_031
+31,Ketumbeine,ketumbeine,longido,arusha,reference_places,reference_only,REF_032
+32,Gelai Lumbwa,gelai lumbwa,longido,arusha,reference_places,reference_only,REF_033
+32,Gelai,gelai,longido,arusha,reference_places,reference_only,REF_033
+33,Gelai Meirugoi,gelai meirugoi,longido,arusha,reference_places,reference_only,REF_034
+34,Sinya,sinya,longido,arusha,reference_places,reference_and_tier2,REF_035
+35,Namanga,namanga,longido,arusha,reference_places,reference_only,REF_036
+36,Mundarara,mundarara,longido,arusha,reference_places,reference_only,REF_037
+37,Engarenaibor,engarenaibor,longido,arusha,reference_places,reference_only,REF_038
+38,Tingatinga,tingatinga,longido,arusha,reference_places,reference_and_tier2,REF_039
+38,Tinga Tinga,tinga tinga,longido,arusha,reference_places,reference_and_tier2,REF_039
+39,Olmolog,olmolog,longido,arusha,reference_places,reference_and_tier2,REF_040
+39,Ol Molog,ol molog,longido,arusha,reference_places,reference_and_tier2,REF_040
+39,Olmolong,olmolong,longido,arusha,reference_places,reference_and_tier2,REF_040
+40,Matale,matale,longido,arusha,reference_places,reference_only,REF_041
+41,Engaruka,engaruka,monduli,arusha,reference_places,reference_only,REF_042
+42,Selela,selela,monduli,arusha,reference_places,reference_only,REF_043
+43,Mto wa Mbu,mto wa mbu,monduli,arusha,reference_places,reference_only,REF_044
+44,Lolkisale,lolkisale,monduli,arusha,reference_places,reference_only,REF_045
+45,Moita,moita,monduli,arusha,reference_places,reference_only,REF_046
+46,Sepeko,sepeko,monduli,arusha,reference_places,reference_only,REF_047
+47,Monduli Juu,monduli juu,monduli,arusha,reference_places,reference_only,REF_048
+48,Meshili,meshili,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_001
+49,Osinoni,osinoni,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_002
+50,Kakesio,kakesio,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_003
+51,Irkeekpus,irkeekpus,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_004
+51,Irkeepus,irkeepus,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_004
+51,Erkeekpus,erkeekpus,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_004
+52,Bulati,bulati,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_005
+53,Naiyobi,naiyobi,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_006
+54,Kapenjiro,kapenjiro,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_007
+55,Alailelai,alailelai,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_008
+55,Alaelilai,alaelilai,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_008
+56,Sendui,sendui,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_009
+57,Esere,esere,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_010
+58,Oloirobi,oloirobi,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_011
+58,Olorobi,olorobi,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_011
+59,Mokilal,mokilal,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_012
+60,Olpiro,olpiro,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_013
+61,Ngoile,ngoile,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_014
+62,Iltulele,iltulele,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_015
+62,Itulele,itulele,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_015
+63,Alchaniomelock,alchaniomelock,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_016
+63,Alchaneomelock,alchaneomelock,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_016
+63,Olchamiolock,olchamiolock,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_016
+64,Alaitole,alaitole,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_017
+64,Alaitolei,alaitolei,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_017
+65,Nasiporiong,nasiporiong,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_018
+65,Nasipaoriong,nasipaoriong,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_018
+66,Kayapusi,kayapusi,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_019
+66,Kayapus,kayapus,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_019
+66,Kayepus,kayepus,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_019
+67,Masamburai,masamburai,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_020
+68,Loongoijoo,loongoijoo,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_021
+68,Longoojo,longoojo,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_021
+69,Kaitakiteng,kaitakiteng,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_022
+69,Katekiteng,katekiteng,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_022
+70,Loosoito,loosoito,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_023
+70,Loosoito-Maaloni,loosoito maaloni,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_023
+70,Maaloni,maaloni,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_023
+71,Oloirien,oloirien,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_024
+71,Olorien-Magaiduru,olorien magaiduru,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_024
+71,Oloirien-Magaiduru,oloirien magaiduru,ngorongoro,arusha,tier2_addition,tier2_addition,T2ADD_024
+72,Elerai,elerai,longido,arusha,tier2_addition,tier2_addition,T2ADD_025
+73,Ngereani,ngereani,longido,arusha,tier2_addition,tier2_addition,T2ADD_026
+73,Ngereyani,ngereyani,longido,arusha,tier2_addition,tier2_addition,T2ADD_026
+73,Ngereiyani,ngereiyani,longido,arusha,tier2_addition,tier2_addition,T2ADD_026
+74,Lerang’ua,lerang ua,longido,arusha,tier2_addition,tier2_addition,T2ADD_027
+74,Lerangwa,lerangwa,longido,arusha,tier2_addition,tier2_addition,T2ADD_027
+75,Kitende,kitende,longido,arusha,tier2_addition,tier2_addition,T2ADD_028
+75,Kitendeni,kitendeni,longido,arusha,tier2_addition,tier2_addition,T2ADD_028
+76,Irkaswa,irkaswa,longido,arusha,tier2_addition,tier2_addition,T2ADD_029
+77,Kamwanga,kamwanga,longido,arusha,tier2_addition,tier2_addition,T2ADD_030
+78,Sukuro,sukuro,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_031
+79,Narrakauo,narrakauo,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_032
+79,Narakauo,narakauo,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_032
+80,Namalulu,namalulu,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_033
+81,Nadoilchukin,nadoilchukin,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_034
+81,Nadolchukin,nadolchukin,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_034
+81,Naidochikin,naidochikin,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_034
+82,Orkiningu'rung'u,orkiningurungu,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_035
+82,Orkirung’urung’u,orkirung urung u,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_035
+82,Orkesumet-Orkirung’urung,orkesumet orkirung urung,simanjiro,manyara,tier2_addition,tier2_addition,T2ADD_035

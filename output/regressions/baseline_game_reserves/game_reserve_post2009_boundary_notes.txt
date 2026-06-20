@@ -1,0 +1,91 @@
+Game-reserve baseline with expanded Maasai treatment and local reserve-risk main sample.
+
+Research question:
+- Among households in a credible local risk set around game reserves, did post-2009 reserve proximity differentially affect households located in Maasai-associated areas?
+
+Input directory: output/spatial_restricted
+Output directory: output/regressions/baseline_game_reserves
+
+Detected files:
+- core: analysis_core_1_4_spatial.csv
+- land: analysis_land_2_4_spatial.csv
+- pastoral: analysis_pastoral_3_4_spatial.csv
+
+Timing:
+- Main post variable: post_2009
+- If post_2009: wave 1 is pre; waves 2+ are post.
+
+Main game-reserve exposure:
+- within_25km_game_reserve
+- within_50km_game_reserve
+- continuous: neg_distance_to_game_reserve_10km
+
+Main Maasai identifier:
+- maasai_expanded_area_proxy / maasai_expanded_25km
+- Built upstream from the 83-row expanded Maasai locality dataset.
+- Livestock, TLU, grazing land, and mobility variables are NOT used to identify Maasai status in this version.
+- Legacy variables such as maasai_pastoral_composite_proxy are treated as backward-compatible aliases for expanded Maasai geography when produced by add_ward_and_village_treatment_v4.py.
+
+Main sample:
+- boundary75km: households within 75 km of a game-reserve boundary.
+
+Robustness samples:
+- full
+- northern_regions: Arusha,Manyara
+- boundary50km
+- boundary100km
+- boundary75km_maasai100km
+- northern_or_within100km_maasai_expanded
+
+Boundary variables:
+- distance_to_game_reserve_boundary_km
+- neg_distance_to_game_reserve_boundary_10km
+- boundary-band samples requested: 50,75,100 km
+- If true boundary distance was not created upstream, the script uses distance_to_game_reserve_km as a fallback. This is valid for outside points, but less informative for inside points.
+
+Organized outputs:
+- dashboard_main_results.md / dashboard_main_results.csv = first files to read after each run.
+- output_manifest.csv = complete list of written tables.
+- main/ = small set of tables to inspect routinely.
+- appendix/ = robustness/mechanism tables to inspect only when needed.
+
+Main tables:
+1. main/table_0_support_game_reserve.csv
+2. main/table_1_main_welfare_game_reserve.csv
+3. main/table_3_maasai_expanded_heterogeneity.csv
+4. main/table_5_controls_robustness.csv
+
+Appendix tables:
+- appendix/table_2_boundary_welfare_game_reserve.csv
+- appendix/table_3b_maasai_expanded50_heterogeneity_robustness.csv
+- appendix/table_3c_maasai_expanded_leave_one_district_out.csv
+- appendix/table_4_mechanisms_game_reserve.csv
+- appendix/table_4b_livestock_narrative.csv
+- appendix/table_6_weighted_welfare.csv
+- appendix/table_7_geospatial_market_controls.csv
+- appendix/table_8_land_event_mechanisms.csv
+- appendix/table_8b_sparse_land_event_appendix.csv
+
+Specifications:
+- Main welfare:
+  Y ~ near_game_reserve + near_game_reserve × post_2009 + controls + wave FE + district2022_name FE
+
+- Main heterogeneity:
+  Y ~ game + expanded_Maasai + game×expanded_Maasai + game×post + expanded_Maasai×post + game×expanded_Maasai×post
+      + controls + wave FE + district2022_name FE
+
+Controls:
+- Main baseline: hh_size, share_female, n_children_u15, n_adults_15plus
+- head_age is excluded from main controls and shown only in table_5 robustness.
+- Robustness adds head_age, shocks, head_age+shocks, survey weights, geospatial/environment controls, and market-access controls.
+
+Clustered SE:
+- ward2022_name
+
+Interpretation warning:
+These are repeated-cross-section spatial exposure models. Game-reserve proximity and expanded Maasai-area proximity are approximate spatial exposure measures because NPS coordinates are modified/offset. The boundary sample improves counterfactual credibility but is not a sharp RD.
+
+Recommended reading:
+- First read dashboard_main_results.md.
+- Then inspect main/table_1 and main/table_3 if the dashboard changed.
+- main/table_5 is the key place to check head_age attrition and robustness.

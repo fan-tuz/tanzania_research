@@ -1,0 +1,14 @@
+Restricted-area exposure added.
+
+Input spatial directory: output/spatial
+Output directory: output/spatial_restricted
+Game reserves file: data/geo/Tanzania_Game_Reserves.shp
+Forest reserves file: not used in main dataset
+
+Main variables added:
+- distance_to_game_reserve_km, within_10/25/50km_game_reserve, inside_game_reserve
+- forest-reserve and combined restricted-area variables are added only when --forest-reserves is passed
+- *_x_pastoral_reference_area interactions for the 25km thresholds
+
+Important caveat:
+Distances are computed from modified NPS cluster coordinates. Treat them as approximate spatial exposure measures, not exact household locations.
