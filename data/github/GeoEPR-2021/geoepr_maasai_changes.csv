@@ -1,0 +1,2 @@
+start_year,end_year,n_source_features,area_km2,geometry_equal_previous,symmetric_difference_km2,changed_share_of_union_pct,intersection_over_union,area_change_pct,starts_in_2009,covers_2009,previous_end_year,transition_around_2009
+1992,2021,1,61928.02798620371,,,,,,False,True,,False

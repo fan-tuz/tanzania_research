@@ -1,0 +1,6 @@
+locality_or_area,reason
+"Sale, Digodigo, Pinyinyi and Malambo",Not promoted as Maasai treatment polygons because the literature distinguishes Sonjo/Batemi settlements in Sale Division from Maasai pastoral territory. They remain outside the Maasai layers.
+Mto wa Mbu ward,Not promoted because it is a diverse urban/commercial settlement; isolated Maasai households or facilities do not justify treating the entire ward as Maasai-associated.
+Lengatei and Sunya ward polygons,Not promoted as Maasai polygons because the 2025 Kiteto study explicitly describes them as non-Maasai-dominated. The Maasai-dominated localities Olkitikiti and Ndotoi are retained as points instead.
+Domanga and Mongo wa Mono as precise Datoga points,"Not promoted because source descriptions conflict over Datoga/Barabaig, Hadzabe and Sukuma composition."
+Unverified ward-centroid proxies,A centroid is never represented as a village location. Uncertain recovered localities are kept only as explicitly flagged point estimates when an external locality coordinate exists.

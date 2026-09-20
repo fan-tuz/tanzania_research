@@ -1,9 +1,0 @@
-Maasai post risk-sample models
-================================
-Input file: analysis_core_1_4_spatial.csv
-Post indicator: post_2009
-Primary Maasai column: is_masai_25km
-Robust Maasai column: is_masai_50km
-Main boundary sample: <= 75 km
-Distance function: polynomial order 2 in distance_to_game_reserve_boundary_km / 10
-Near-reserve binary is intentionally excluded from these models.

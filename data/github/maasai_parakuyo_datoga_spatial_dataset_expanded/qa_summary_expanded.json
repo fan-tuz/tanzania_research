@@ -1,0 +1,28 @@
+{
+  "rows_total": 88,
+  "rows_previous_version": 67,
+  "rows_added_or_recovered": 21,
+  "unique_locality_ids": 88,
+  "groups": {
+    "datoga_barabaig": 8,
+    "maasai": 77,
+    "parakuyo": 3
+  },
+  "geometry_types": {
+    "ward_polygons": 59,
+    "point_estimates": 29
+  },
+  "manual_check_rows": 18,
+  "preferred_baseline_rows_conf_ge_080_manual_0": 70,
+  "conservative_rows_conf_ge_090_manual_0": 47,
+  "expanded_rows_conf_ge_075": 79,
+  "manual_review_only_rows_conf_lt_075": 9,
+  "polygon_crs": "EPSG:4326",
+  "point_crs": "EPSG:4326",
+  "invalid_polygon_geometries": 0,
+  "invalid_point_geometries": 0,
+  "duplicate_ids": 0,
+  "duplicate_group_locality_point_rows": 0,
+  "point_to_assigned_ward_mismatches": 0,
+  "point_mismatch_details": []
+}

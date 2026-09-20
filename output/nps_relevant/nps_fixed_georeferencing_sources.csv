@@ -1,0 +1,5 @@
+survey_round,coordinate_file,household_rows,georeferenced_households,share_georeferenced
+W1,/home/mf/masai/nps_codebase_refactored/data/wave1/HH.Geovariables_Y1.csv,3277,2990,0.9124198962465669
+W2,/home/mf/masai/nps_codebase_refactored/data/wave2/TZY2.EA.Offsets.csv,3924,3924,1.0
+W3,/home/mf/masai/nps_codebase_refactored/data/wave3/HouseholdGeovars_Y3.csv,5010,4988,0.9956087824351297
+W4,/home/mf/masai/nps_codebase_refactored/data/wave4/npsy4.ea.offset.csv,3353,3352,0.9997017596182524

@@ -1,0 +1,19 @@
+Repeated-cross-section core specifications
+==========================================
+Script version: 2026-06-28-two-shock-main-25km-v11
+Household input: output/nps_final/nps_relevant_household_wave.csv
+Treatment: is_maasai_25km
+Risk set: distance to reserve boundary <= 50 km
+Samples: full risk set; districts containing both treated and control observations
+Fixed effects: wave + district
+Clustered standard errors: ea
+Controls: hh_members, share_female, child_share
+
+Specification:
+Y = MaasaiAssociated + Post2009 + InsideReserve + MaasaiAssociated*Post2009 + controls + linear distance to the nearest reserve boundary (per 10 km) + wave FE + district FE.
+
+The common-support sample keeps districts with at least one treated and one control observation in the reserve-boundary risk set.
+
+Livestock-product distress pricing compares price_per_unit_hh with the supplied price_median_ea for the same product and EA. No district/region hierarchy is estimated.
+
+Non-farm, self-employment, and non-agricultural wage income shares are broad proxies for income diversification; they do not identify craft or tourism-guide income separately.

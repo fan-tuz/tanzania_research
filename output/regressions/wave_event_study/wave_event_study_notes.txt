@@ -1,0 +1,17 @@
+Wave-by-wave repeated-cross-section event study
+=============================================
+Script version: 2026-06-28-wave-event-study-25km-v6
+Household input: output/nps_final/nps_relevant_household_wave.csv
+Treatment: is_maasai_25km
+Observed waves: W1, W2, W3, W4
+Reference wave: W3
+Risk set: distance to reserve boundary <= 75 km
+Samples: full risk set; districts containing both treated and control observations
+Fixed effects: wave + district
+Clustered standard errors: ea
+Controls: hh_members, share_female, child_share
+
+Specification:
+Y = Treated + sum(wave fixed effects) + sum(Treated x Wave_k) + InsideReserve + controls + linear boundary distance per 10 km + district fixed effects.
+
+Wave 3 is the default omitted interaction because it is the last pre-2013 wave. Therefore each reported Treated x Wave_k coefficient is the change in the treated-control gap in Wave k relative to Wave 3. Wave 1 and Wave 2 coefficients are pre-reference diagnostics; Wave 4 and Wave 5 coefficients are post-reference effects when those waves are available.

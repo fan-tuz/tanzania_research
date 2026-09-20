@@ -1,0 +1,12 @@
+check,value,wave,household_rows,ea_codes,ea_wave_rows,sampled_coordinate_points,raw_coordinate_points,raw_to_sampled_point_ratio
+household_rows_with_valid_wave_coordinates,15251.0,,,,,,,
+coordinate_wave_points_sent_to_gee,2837.0,,,,,,,
+ea_wave_rows_final_output,669.0,,,,,,,
+sample_coordinate_decimals_used,6.0,,,,,,,
+ea_wave_rows_with_multiple_sample_points,422.0,,,,,,,
+wave_diagnostic,,1.0,2990.0,99.0,99.0,409.0,409.0,1.0
+wave_diagnostic,,2.0,3924.0,246.0,246.0,409.0,409.0,1.0
+wave_diagnostic,,3.0,4985.0,263.0,263.0,1600.0,1600.0,1.0
+wave_diagnostic,,4.0,3352.0,61.0,61.0,419.0,419.0,1.0
+rows_in_final_ndvi_ea_wave_file,669.0,,,,,,,
+rows_in_coordinate_point_sample_file,2837.0,,,,,,,
